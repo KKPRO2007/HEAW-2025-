@@ -866,3 +866,21 @@ footer {
         width: 100%;
     }
 }
+.committee-subheading {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 1.8rem;
+    color: #faf9fb;
+    position: relative;
+    font-weight: 600;
+}
+
+.committee-subheading::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, #9370db, #d8bfd8);
+    margin: 15px auto;
+    border-radius: 2px;
+}
